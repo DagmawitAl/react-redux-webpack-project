@@ -1,0 +1,4 @@
+.employees-container {
+    flex-direction: column;
+    display: flex;
+}

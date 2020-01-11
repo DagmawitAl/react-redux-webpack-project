@@ -1,0 +1,48 @@
+.employee {
+    display: flex;
+    flex-direction: row;
+    background-color: goldenrod;
+    /* border-color: darkolivegreen; */
+    width: 23.5%;
+    margin: 10px;
+    /* flex: 4; */
+    border-radius: 10px;
+}
+
+.employee-image-container {
+    flex: 3;
+}
+
+.employee-info-container {
+    text-decoration-color: white;
+    flex: 6;
+}
+
+.employee-dm-container {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    height: 20%;
+}
+
+.employee-delete-button {
+    flex: 1;
+    background-color: red;
+    color: white;
+    border-radius: 0px 10px 0px 0px;
+    text-align: center;
+    align-self: flex-end;    
+    border: 0px 0px 0px 0px solid;
+    font-size: 15px;
+}
+
+.employee-update-button {
+    text-align: center;
+    flex: 1;
+    color: white;
+    background-color: green;
+    border-radius: 0px 0px 0px 10px;
+    /* align-self: ;     */
+
+}
